@@ -1,0 +1,28 @@
+{
+  "name": "zip-bucket-bin",
+  "version": "2.0.0",
+  "description": "command line program for creating .zip archives from Google Cloud Storage buckets",
+  "bin": {
+    "zip-bucket": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: this bin does not include tests, but the underlying library is tested. \" && exit 1"
+  },
+  "keywords": [
+    "zip",
+    "cloud-storage",
+    "command-line"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrPaulBrewer/zip-bucket-bin/issues"
+  },
+  "homepage": "https://github.com/DrPaulBrewer/zip-bucket-bin#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^6.12.0",
+    "commander": "^11.0.0",
+    "secure-json-parse": "^2.7.0",
+    "zip-bucket": "^2.0.0"
+  }
+}
